@@ -1,0 +1,95 @@
+{
+  "tests": [
+    {
+      "name": "Add and Contains Tests - 5pts",
+      "setup": "cmake .;make SetType_Tests",
+      "run": "timeout 5m ./SetType_Tests \"SetType Tests\" -c \"Add and Contains Tests - 5pts\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Assignment/MakeEmpty Tests - 5pts",
+      "setup": "cmake .;make SetType_Tests",
+      "run": "timeout 5m ./SetType_Tests \"SetType Tests\" -c \"Assignment/MakeEmpty Tests - 5pts\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Remove Tests - 5pts",
+      "setup": "cmake .;make SetType_Tests",
+      "run": "timeout 5m ./SetType_Tests \"SetType Tests\" -c \"Remove Tests - 5pts\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Overload Add/Remove Tests - 5pts",
+      "setup": "cmake .;make SetType_Tests",
+      "run": "timeout 5m ./SetType_Tests \"SetType Tests\" -c \"Overload Add/Remove Tests - 5pts\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Union Tests - 5pts",
+      "setup": "cmake .;make SetType_Tests",
+      "run": "timeout 5m ./SetType_Tests \"SetType Tests\" -c \"Union Tests - 5pts\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Difference Tests - 5pts",
+      "setup": "cmake .;make SetType_Tests",
+      "run": "timeout 5m ./SetType_Tests \"SetType Tests\" -c \"Difference Tests - 5pts\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Intersection Tests - 5pts",
+      "setup": "cmake .;make SetType_Tests",
+      "run": "timeout 5m ./SetType_Tests \"SetType Tests\" -c \"Intersection Tests - 5pts\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Rehash Tests - 5pts",
+      "setup": "cmake .;make SetType_Tests",
+      "run": "timeout 5m ./SetType_Tests \"SetType Tests\" -c \"Rehash Tests - 5pts\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Iterator Tests - 5pts",
+      "setup": "cmake .;make SetType_Tests",
+      "run": "timeout 5m ./SetType_Tests \"SetType Tests\" -c \"Iterator Tests - 5pts\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    }
+
+  ]
+}
